@@ -19,9 +19,9 @@ ALLOWED_HOSTS = ['myshop252.herokuapp.com/', '127.0.0.1']
 CART_SESSION_ID = 'cart'
 
 # PAYMENT CREDENTIALS
-BRAINTREE_MERCHANT_ID = 'yjjk9jvv49sbrj9c'
-BRAINTREE_PUBLIC_KEY = 'jwfqq3jbkvgv8f5m'
-BRAINTREE_PRIVATE_KEY = '47f15bd65b8ed92decb87f9122f7022d'
+BRAINTREE_MERCHANT_ID = ''
+BRAINTREE_PUBLIC_KEY = ''
+BRAINTREE_PRIVATE_KEY = ''
 
 BRAINTREE_CONF = braintree.Configuration(
     braintree.Environment.Sandbox,
@@ -86,7 +86,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'shopDb',
         'USER': 'postgres',
-        'PASSWORD': 'Abc616469774...',
+        'PASSWORD': '',
         'Host': 'localhost',
         'PORT': '5432',
     }
@@ -134,7 +134,7 @@ MEDIA_ROOT = (
 )
 
 # PAYPAL
-PAYPAL_RECEIVER_EMAIL = 'ismailtutor1@gmail.com'
+PAYPAL_RECEIVER_EMAIL = ''
 
 PAYPAL_TEST = True
 
