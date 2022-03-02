@@ -19,9 +19,9 @@ ALLOWED_HOSTS = ['myshop252.herokuapp.com/', '127.0.0.1']
 CART_SESSION_ID = 'cart'
 
 # PAYMENT CREDENTIALS
-BRAINTREE_MERCHANT_ID = ''
-BRAINTREE_PUBLIC_KEY = ''
-BRAINTREE_PRIVATE_KEY = ''
+BRAINTREE_MERCHANT_ID = 'd7q53qb2p8mcrnhh'
+BRAINTREE_PUBLIC_KEY = '5dn8tycs79t6dfxb'
+BRAINTREE_PRIVATE_KEY = '6aef76fd61c1f7ec6317a7bcbe2d09a2'
 
 BRAINTREE_CONF = braintree.Configuration(
     braintree.Environment.Sandbox,
